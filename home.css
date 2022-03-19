@@ -286,7 +286,7 @@ footer {
 @media (min-width:535px) and (max-width: 724px) {
     .footer2 {
         text-align: center;
-        margin-top: -25px;
+        margin-top: -20px;
         margin-bottom: 10px;
         font-size: 12px;
     }
@@ -295,7 +295,7 @@ footer {
 @media (min-width:415px) and (max-width: 534px) {
     .footer2 {
         text-align: center;
-        margin-top: -20px;
+        margin-top: -10px;
         margin-bottom: 5px;
         font-size: 10px;
     }
@@ -304,7 +304,7 @@ footer {
 @media (max-width: 414px) {
     .footer2 {
         text-align: center;
-        margin-top: -15px;
+        margin-top: 0px;
         margin-bottom: 0px;
         font-size: 10px;
     }
