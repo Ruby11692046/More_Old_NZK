@@ -1,0 +1,347 @@
+/* タイプセレクタ */
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+@media (min-width:725px) {
+    header {
+        z-index: 10;
+        height: 90px;
+        position: fixed;
+        top: 0px;
+        background-color: rgb(53, 53, 53);
+        width: 98%;
+        text-align: center;
+        z-index: 2;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    header {
+        z-index: 10;
+        height: 70px;
+        position: fixed;
+        top: 0px;
+        background-color: rgb(53, 53, 53);
+        width: 98%;
+        text-align: center;
+        z-index: 2;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    header {
+        z-index: 10;
+        height: 60px;
+        position: fixed;
+        top: 0px;
+        background-color: rgb(53, 53, 53);
+        width: 98%;
+        text-align: center;
+        z-index: 2;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (max-width: 414px) {
+    header {
+        z-index: 10;
+        height: 60px;
+        position: fixed;
+        top: 0px;
+        background-color: rgb(53, 53, 53);
+        width: 98%;
+        text-align: center;
+        z-index: 2;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+
+h2 {
+    color: rgb(255, 73, 128);
+    padding-top: 120px;
+    margin-top: -100px;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+a {
+    color: rgb(85, 176, 255);
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 98%;
+}
+
+/* クラスセレクタ */
+
+.title {
+    display: flex;
+    position: fixed;
+    width: 98%;
+}
+
+@media (min-width:725px) {
+    .title2 {
+        color: rgb(95, 95, 95);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-size: 50px;
+        margin: 10px;
+        border-right: 5px rgb(19, 19, 19) solid;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .title2 {
+        color: rgb(95, 95, 95);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-size: 35px;
+        margin: 10px;
+        border-right: 4px rgb(19, 19, 19) solid;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .title2 {
+        color: rgb(95, 95, 95);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-size: 25px;
+        margin: 8px;
+        border-right: 3px rgb(19, 19, 19) solid;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 414px) {
+    .title2 {
+        color: rgb(95, 95, 95);
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        font-size: 15px;
+        margin: 4px;
+        border-right: 2px rgb(19, 19, 19) solid;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width:725px) {
+    .logo {
+        height: 95px;
+        width: 95px;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .logo {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 414px) {
+    .logo {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (min-width:725px) {
+    .menu {
+        margin-top: 10px;
+        text-align: left;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .menu {
+        margin-top: 10px;
+        text-align: left;
+        margin-right: 5px;
+        font-size: 12px;
+
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .menu {
+        margin-top: 10px;
+        text-align: left;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .menu {
+        margin-top: 10px;
+        text-align: left;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:725px) {
+    .start {
+        padding-top: 400px;
+        margin-top: -300px;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .start {
+        padding-top: 380px;
+        margin-top: -300px;
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .start {
+        padding-top: 360px;
+        margin-top: -300px;
+    }
+}
+
+@media (max-width: 414px) {
+    .start {
+        padding-top: 340px;
+        margin-top: -300px;
+    }
+}
+
+.startnzk {
+    padding-top: 100px;
+    margin-top: -80px;
+}
+
+@media (min-width:725px) {
+    .footer {
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        text-align: center;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .footer {
+        color: rgb(255, 255, 255);
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .footer {
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 414px) {
+    .footer {
+        color: rgb(255, 255, 255);
+        font-size: 0.5em;
+        text-align: center;
+    }
+}
+
+@media (min-width:725px) {
+    .footer2 {
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .footer2 {
+        text-align: center;
+        margin-top: -25px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .footer2 {
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .footer2 {
+        text-align: center;
+        margin-top: -15px;
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+}
+
+.footer3 {
+    text-align: center;
+}
+
+@media (min-width:725px) {
+    .footer4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width:535px) and (max-width: 724px) {
+    .footer4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:415px) and (max-width: 534px) {
+    .footer4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .footer4 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 10px;
+    }
+}
